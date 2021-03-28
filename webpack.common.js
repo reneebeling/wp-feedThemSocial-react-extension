@@ -7,7 +7,7 @@ module.exports = {
 	output: {
         path: path.resolve(__dirname, './dist'),
 		filename: "social-media-carousel.js",
-        publicPath: "/wp-content/plugins/wp-react-social-media-carousel/dist/"
+        publicPath: "/wp-content/plugins/wp-feedThemSocial-react-extension/plugin-extensions/js/"
 	},
     plugins: [new HtmlWebpackPlugin({
                     title: 'My Test app',

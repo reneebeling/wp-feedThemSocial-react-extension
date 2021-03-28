@@ -13,7 +13,7 @@ export default class MyCarousel extends Component {
     }
 
     componentDidMount = () => {
-        if(typeof LJCustomScriptsSocialMedia  !== 'undefined' && LJCustomScriptsSocialMedia["nonce"]){
+        if(typeof FTSInstaExtension !== 'undefined' && FTSInstaExtension["nonce"]){
             let wp_REST_API_URL = '/wp-json/instagram/data/v1/meta-and-links/?_wpnonce=' + FTSInstaExtension["nonce"];
             fetch(wp_REST_API_URL)
                 .then(res => res.json())
